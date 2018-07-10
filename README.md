@@ -1,15 +1,15 @@
 # PWC_Net_TensorFlow
 
-Tensorflow implementation of Pyramid, Warping and Cost Volume Networks based on the [paper](https://arxiv.org/abs/1709.02371) presented at CVPR 2018.'\n'
-Currently, main.py simply downloads the FlyingChairs Dataset and starts training, following the schedule outlined in the [paper](https://arxiv.org/abs/1709.02371).'\n'
-This code could easily be adapted to train on other datasets though.'\n\n'
+Tensorflow implementation of Pyramid, Warping and Cost Volume Networks based on the [paper](https://arxiv.org/abs/1709.02371) presented at CVPR 2018.<br />
+Currently, main.py simply downloads the FlyingChairs Dataset and starts training, following the schedule outlined in the [paper](https://arxiv.org/abs/1709.02371).<br />
+This code could easily be adapted to train on other datasets though.<br /><br />
 
 ## Tested Environment
 
-Ubuntu 16.04
-Python3
-Tensorflow 1.8
-Cuda 9.0
+Ubuntu 16.04<br />
+Python3<br />
+Tensorflow 1.8<br />
+Cuda 9.0<br />
 
 ## Usage
 
@@ -19,24 +19,24 @@ python3 main.py
 
 ## Example visualisations following training
 
-From left to right, the images below indicate rgb image, ground truth flow, predicted flow, flow error
+From left to right, the images below indicate rgb image, ground truth flow, predicted flow, flow error<br />
 
-Examples from the training set:
+Examples from the training set:<br />
 
-![Example Training Flow Result 1](readme_images/example_training_flow1.gif)
-![Example Training Flow Result 2](readme_images/example_training_flow2.gif)
-![Example Training Flow Result 3](readme_images/example_training_flow3.gif)
-![Example Training Flow Result 4](readme_images/example_training_flow4.gif)
+![Example Training Flow Result 1](readme_images/example_training_flow1.gif)<br />
+![Example Training Flow Result 2](readme_images/example_training_flow2.gif)<br />
+![Example Training Flow Result 3](readme_images/example_training_flow3.gif)<br />
+![Example Training Flow Result 4](readme_images/example_training_flow4.gif)<br />
 
-Examples from the validation set:
+Examples from the validation set:<br />
 
-![Example Validation Flow Result 1](readme_images/example_validation_flow1.gif)
-![Example Validation Flow Result 2](readme_images/example_validation_flow2.gif)
-![Example Validation Flow Result 3](readme_images/example_validation_flow3.gif)
-![Example Validation Flow Result 4](readme_images/example_validation_flow4.gif)
+![Example Validation Flow Result 1](readme_images/example_validation_flow1.gif)<br />
+![Example Validation Flow Result 2](readme_images/example_validation_flow2.gif)<br />
+![Example Validation Flow Result 3](readme_images/example_validation_flow3.gif)<br />
+![Example Validation Flow Result 4](readme_images/example_validation_flow4.gif)<br />
 
 ## Example Training Loss
 
-This is an example of the loss when training on the full flying chairs dataset (no validation was used on this occassion).
+This is an example of the loss when training on the full flying chairs dataset (no validation was used on this occassion).<br />
 
-![Example Loss](readme_images/example_loss.png)
+![Example Loss](readme_images/example_loss.png)<br />
