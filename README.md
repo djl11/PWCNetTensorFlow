@@ -1,6 +1,6 @@
-# PWC_Net_TensorFlow
+# PWC Net TensorFlow
 
-Tensorflow implementation of Pyramid, Warping and Cost Volume Networks based on the [paper](https://arxiv.org/abs/1709.02371) presented at CVPR 2018.<br />
+Tensorflow implementation of Pyramid, Warping and Cost Volume (PWC) Networks based on the [paper](https://arxiv.org/abs/1709.02371) presented at CVPR 2018.<br />
 Currently, [main.py](https://github.com/djl11/PWC_Net_TensorFlow/blob/master/main.py) simply downloads the FlyingChairs Dataset and starts training, following the outlined [schedule](https://arxiv.org/abs/1709.02371).<br />
 This code could easily be adapted to train on other datasets though.<br /><br />
 
