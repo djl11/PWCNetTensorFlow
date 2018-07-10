@@ -11,6 +11,13 @@ Python3<br />
 Tensorflow 1.8<br />
 Cuda 9.0<br />
 
+## Acknowledgements
+
+This repo uses 3 custom written tensorfow ops in c++
+
+The correlation op was taken from [this](https://github.com/simonmeister/UnFlow) tensorflow implementation of UnFlow by Simon Meister<br />
+The ppm and flo decoding ops were taken from [this](https://github.com/lmb-freiburg/lmbspecialops) collection of tf ops, from the Computer Vision Group, Albert-Ludwigs-Universität Freiburg<br />
+
 ## Usage
 
 ```python
