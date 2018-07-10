@@ -1,7 +1,7 @@
 # PWC_Net_TensorFlow
 
 Tensorflow implementation of Pyramid, Warping and Cost Volume Networks based on the [paper](https://arxiv.org/abs/1709.02371) presented at CVPR 2018.<br />
-Currently, main.py simply downloads the FlyingChairs Dataset and starts training, following the schedule outlined in the [paper](https://arxiv.org/abs/1709.02371).<br />
+Currently, [main.py](https://github.com/djl11/PWC_Net_TensorFlow/blob/master/main.py) simply downloads the FlyingChairs Dataset and starts training, following the outlined [schedule](https://arxiv.org/abs/1709.02371).<br />
 This code could easily be adapted to train on other datasets though.<br /><br />
 
 ## Tested Environment
@@ -16,6 +16,14 @@ Cuda 9.0<br />
 ```python
 python3 main.py
 ```
+
+A tensorboard session will automatically be started in a new tmux window (so that the visualisations are still available after the python session has ended).<br />
+This tensorboard session will log the training/validation losses, as well as giffs of the flow as it trains.
+
+Some general hyperparameters regarding the logging of data can be changed through [task.py](https://github.com/djl11/PWC_Net_TensorFlow/blob/master/task.py)<br />
+Other hyperparameters relating to the training schedule can be changed in the constructor of [network.py](https://github.com/djl11/PWC_Net_TensorFlow/blob/master/network.py)<br />
+The default training/validation split is to have 90% training, with 10% left for validation. <br />
+
 
 ## Example visualisations following training
 
