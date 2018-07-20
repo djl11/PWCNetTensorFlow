@@ -38,7 +38,7 @@ class Network():
 
         self.total_iterations = 1e6
 
-        self.validation_ratio = 1 - 8/22872
+        self.validation_ratio = 0.1
         self.num_training_examples = int(round(self.data_loader.total_num_examples * (1 - self.validation_ratio)))
         self.num_validation_examples = self.data_loader.total_num_examples - self.num_training_examples
         self.total_num_examples = self.num_training_examples + self.num_validation_examples
