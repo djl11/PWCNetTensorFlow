@@ -34,9 +34,9 @@ class Task():
                                  network=self.__network,
                                  dirs=self._dirs,
                                  ld_chkpt=True,
-                                 save_freq=100,
-                                 log_freq=20,
-                                 vis_freq=50)
+                                 save_freq=10000,
+                                 log_freq=200,
+                                 vis_freq=5000)
         return self.__trainer
 
 
