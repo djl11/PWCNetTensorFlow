@@ -153,7 +153,7 @@ class Network():
         conv3 = tf.layers.conv2d(conv2,96,[3,3],(1,1),'same','channels_first',(1,1),tf.nn.leaky_relu)
         conv4 = tf.layers.conv2d(conv3,64,[3,3],(1,1),'same','channels_first',(1,1),tf.nn.leaky_relu)
         ft = tf.layers.conv2d(conv4,32,[3,3],(1,1),'same','channels_first',(1,1),tf.nn.leaky_relu)
-        wt = tf.layers.conv2d(conv4,2,[3,3],(1,1),'same','channels_first',(1,1),tf.nn.leaky_relu)
+        wt = tf.layers.conv2d(ft,2,[3,3],(1,1),'same','channels_first',(1,1),tf.nn.leaky_relu)
 
         return ft, wt
 
